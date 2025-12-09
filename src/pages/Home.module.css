@@ -1,0 +1,13 @@
+.hero{padding:48px 0}
+.inner{background:var(--card-bg);border-radius:8px;padding:28px}
+.title{margin-bottom:8px}
+.lead{color:var(--muted);margin-bottom:16px}
+.cards{display:grid;grid-template-columns:repeat(2,1fr);gap:16px}
+.card{background:var(--bg);padding:16px;border-radius:8px;border:1px solid rgba(15,23,36,0.04)}
+@media (max-width:720px){.cards{grid-template-columns:1fr}}
+
+
+
+
+
+

@@ -1,0 +1,27 @@
+﻿:root{
+  --bg:#f7f7f9;
+  --primary:#0f1724;
+  --accent:#c7a17a;
+  --muted:#6b7280;
+  --max-width:1100px;
+  --card-bg: #ffffff;
+}
+
+.app{
+  min-height:100vh;
+  display:flex;
+  flex-direction:column;
+  background:var(--bg);
+  color:var(--primary);
+}
+
+.main{
+  flex:1;
+  width:100%;
+  max-width:var(--max-width);
+  margin:0 auto;
+  padding:2rem 1rem;
+}
+@media (max-width:600px){
+  .main{padding:1rem}
+}
